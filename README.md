@@ -1,6 +1,10 @@
 # srv
-Lisää vieras käyttäjä
+Lisää vieras käyttäjä vaikka tuhanteen koneeseen!
 
-`git clone https://github.com/miljonka/srv.git` (HTTPS)
+Kloonaa varasto kotihakemistoo ja aja tila.
 
-Lisää vieraskäyttäjä: `sudo salt-call --local --file-root srv/salt/ state.apply vieras`
+```
+$ cd
+$ git clone https://github.com/miljonka/srv.git
+$ sudo salt-call --local --file-root srv/salt/ state.apply vieras
+```
